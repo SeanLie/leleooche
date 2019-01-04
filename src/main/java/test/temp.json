@@ -1,0 +1,144 @@
+{
+  "message": "查询成功",
+  "data": {
+    "orderReservationList": [
+      {
+        "order": {
+          "orderUsers": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "parkPhoto": "f8b379732ce74d66a79313fdd030b76b",
+          "plateNumber": "粤B0666B",
+          "productId": "402881e765aa19d10165aa1ae75a0001",
+          "orderStatus": "1",
+          "orderCode": "No.1734370077849531385",
+          "statusRemark": null,
+          "orderTime": "2018-11-14 23:16:15",
+          "parkSpace": "中国移动深圳公司",
+          "orderDesc": "请尽快洗好，洗干净点",
+          "orderLevel": 0,
+          "parkNo": "负一楼B区520号",
+          "providerParkNo": null,
+          "providerParkPhoto": null,
+          "createName": "李斌_Sean",
+          "createBy": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "createDate": "2018-11-14 15:15:59",
+          "updateName": null,
+          "updateBy": null,
+          "updateDate": null,
+          "id": "297e932e6710f9de01671113a3f00000"
+        },
+        "user": {
+          "mobilePhone": "13924590739",
+          "personlevel": "0",
+          "nickname": "李斌_Sean",
+          "userName": "李斌_Sean",
+          "email": null,
+          "sex": "1",
+          "userType": "3",
+          "portrait": null,
+          "officePhone": null,
+          "personType": "2"
+        },
+        "vehicle": {
+          "model": "奔驰AMG S65L",
+          "desc": "这是一辆好车",
+          "age": "2018-10-28",
+          "carNum": "粤B0666B"
+        }
+      },
+      {
+        "order": {
+          "orderUsers": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "parkPhoto": "97ff470beb234b88aa7aa30423fd7a16",
+          "plateNumber": "false",
+          "productId": "402881e765aa06530165aa0c97c10009",
+          "orderStatus": "2",
+          "orderCode": "No.1734358087023974393",
+          "statusRemark": null,
+          "orderTime": "2018-11-02 15:31:27",
+          "parkSpace": "中国移动深圳公司",
+          "orderDesc": "微信下单",
+          "orderLevel": 0,
+          "parkNo": "负一楼B区520号",
+          "providerParkNo": null,
+          "providerParkPhoto": null,
+          "createName": "李斌_Sean",
+          "createBy": "李斌_Sean",
+          "createDate": "2018-11-02 16:07:33",
+          "updateName": "李斌_Sean",
+          "updateBy": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "updateDate": "2018-11-05 21:59:53",
+          "id": "4c5a500a141e47c1b74586dc2ab72231"
+        },
+        "user": {
+          "mobilePhone": "13924590739",
+          "personlevel": "0",
+          "nickname": "李斌_Sean",
+          "userName": "李斌_Sean",
+          "email": null,
+          "sex": "1",
+          "userType": "3",
+          "portrait": null,
+          "officePhone": null,
+          "personType": "2"
+        },
+        "vehicle": {
+          "model": "奔驰AMG S65L",
+          "desc": "这是一辆好车",
+          "age": "2018-10-28",
+          "carNum": "粤B0666B"
+        }
+      },
+      {
+        "order": {
+          "orderUsers": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "parkPhoto": "f8b379732ce74d66a79313fdd030b76b",
+          "plateNumber": "粤B0666B",
+          "productId": "402881e765aa06530165aa0c97c10009",
+          "orderStatus": "6",
+          "orderCode": "No.1734368088928390387",
+          "statusRemark": "用户[ 李斌_Sean ]已自主取消订单",
+          "orderTime": "2018-11-12 16:38:15",
+          "parkSpace": "中国移动深圳公司",
+          "orderDesc": "请尽快洗好，洗干净点",
+          "orderLevel": 0,
+          "parkNo": "负一楼B区520号",
+          "providerParkNo": null,
+          "providerParkPhoto": null,
+          "createName": "李斌_Sean",
+          "createBy": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "createDate": "2018-11-12 16:26:38",
+          "updateName": "李斌_Sean",
+          "updateBy": "4aece611e8fb4dd5b6ee0871733fde0f",
+          "updateDate": "2018-11-14 00:03:37",
+          "id": "297e932e670702500167070799f90004"
+        },
+        "user": {
+          "mobilePhone": "13924590739",
+          "personlevel": "0",
+          "nickname": "李斌_Sean",
+          "userName": "李斌_Sean",
+          "email": null,
+          "sex": "1",
+          "userType": "3",
+          "portrait": null,
+          "officePhone": null,
+          "personType": "2"
+        },
+        "vehicle": {
+          "model": "奔驰AMG S65L",
+          "desc": "这是一辆好车",
+          "age": "2018-10-28",
+          "carNum": "粤B0666B"
+        }
+      }
+    ],
+    "channel": "wx",
+    "rspcode": "0",
+    "error": null,
+    "msg": "查询成功",
+    "save": null,
+    "cid": null
+  },
+  "respCode": "0",
+  "ok": false
+}

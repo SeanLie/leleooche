@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-autowire="byName">
+
+    <!-- MiniDao动态代理类 -->
+    <bean id="miniDaoHandler" class="org.jeecgframework.minidao.factory.MiniDaoBeanScannerConfigurer">
+        <!-- 是使用什么字母做关键字Map的关键字 默认值origin 即和sql保持一致,lower小写(推荐),upper 大写 -->
+        <property name="keyType" value="lower"/>
+        <!-- 格式化sql -->
+        <property name="formatSql" value="false"/>
+        <!-- 输出sql -->
+        <property name="showSql" value="false"/>
+        <!-- 数据库类型  mysql/postgresql/oracle/sqlserver -->
+        <property name="dbType" value="mysql"/>
+        <!-- dao地址,配置符合spring方式 -->
+        <property name="basePackage" value="org.jeecgframework.web,com.jeecg,com.jeecg.wechat.dao.*,com.leletc,com.leletc.*.*"/>
+        <!-- 使用的注解,默认是Minidao,推荐 Repository-->
+        <property name="annotation" value="org.springframework.stereotype.Repository"/>
+    </bean>
+
+</beans>
