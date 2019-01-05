@@ -39,7 +39,7 @@ public class SmartCabinetCodeScannerController extends BaseController {
     private ISmartCabinetCodeScannerService smartCabinetCodeScannerService;
 
     /**
-     * 扫一扫二维码开箱门
+     * 扫描二维码控制智能柜开门
      *
      * @param orderId 订单ID
      * @param userId  用户ID
@@ -63,6 +63,30 @@ public class SmartCabinetCodeScannerController extends BaseController {
         new ResponseMessage<SmartCabinetRsp>().setReturnData(response, rsp, rsp);
         return response;
     }
+
+    /**
+     * 扫一扫二维码开箱门（车主）
+     *
+     * @param userId  用户ID
+     * @param bizType 业务类型（1：存，2：取）
+     * @param token   柜子标识码
+     * @return ResponseMessage
+     */
+    /*@RequestMapping(value = "/scanSmartCabinetQRCode/{bizType}/{token}/{cabinetNo}/{userId}", method = RequestMethod.POST)
+    @ResponseBody
+    @ApiOperation(value = "扫描二维码操作智能柜", notes = "智能柜", httpMethod = "POST", produces = "application/json")
+    public ResponseMessage<SmartCabinetRsp> scanSmartCabinetQRCode(
+            @ApiParam(value = "业务类型", required = true) @PathVariable("bizType") Integer bizType,
+            @ApiParam(value = "柜子唯一标识码", required = true) @PathVariable("token") String token,
+            @ApiParam(value = "柜子编号", required = true) @PathVariable("cabinetNo") String cabinetNo,
+            @ApiParam(value = "用户ID", required = true) @PathVariable("userId") String userId) throws Exception {
+        ResponseMessage<SmartCabinetRsp> response = new ResponseMessage<>();
+        ScanSmartCabinetReq smartCabinetVO = new ScanSmartCabinetReq("", userId, bizType, token,
+                null, cabinetNo);
+        SmartCabinetRsp rsp = smartCabinetCodeScannerService.scanCodeOpenDoor(smartCabinetVO);
+        new ResponseMessage<SmartCabinetRsp>().setReturnData(response, rsp, rsp);
+        return response;
+    }*/
 
     /**
      * 关箱门
